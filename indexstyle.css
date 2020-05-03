@@ -84,6 +84,19 @@ footer{
     color: whitesmoke;
     text-align: center;
 }
+.parallax {
+    height: 30vw;
+    /* The image used */
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
 font-family: 'Roboto', sans-serif;
 font-family: 'Baloo Bhaina 2', cursive;
 font-family: 'Comic Neue', cursive;
