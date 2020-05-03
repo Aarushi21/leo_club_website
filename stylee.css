@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/')
+/*@import url('https://fonts.googleapis.com/')*/
 body{
 	font-family: 'Roboto',sans-serif;
 }
@@ -85,11 +85,11 @@ label #cancel
 #check:checked ~section {
 	margin-left: 250px;
 }
-section
+.bg-image
 {
-	background: url(l.jpg) no-repeat;
+	background-image: url(l.jpg) ;
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
-	transition: all .5s;
 }

@@ -1,0 +1,107 @@
+
+*{
+    font-family: 'Girassol', cursive;
+}
+.nav{
+    color:black;
+}
+.nav-link .navbar-brand{
+    color: yellow !important;
+}
+.navbar-brand{
+    font-size: 3vw !important;
+}
+.nav-link{
+    font-size: 1.3vw;
+}
+
+.content{
+  text-align: center;
+  font-size: 90px;
+  color:yellow;
+  margin-bottom: 35vw;
+}
+h1{
+    text-align: center !important;
+    font-size: 45px!important ;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Comic Neue', cursive;
+    color:steelblue;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:'Baloo Bhaina 2', cursive;;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("leoclub3.jpg");
+  
+  /* Add the blur effect */
+
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+ /* border: 3px solid #f1f1f1;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.border{
+  
+  padding: 20px;
+  border-width: 10px;
+}
+footer{
+    background-color: rgb(1, 1, 54);
+    color: whitesmoke;
+    text-align: center;
+}
+.parallax {
+    height: 30vw;
+    /* The image used */
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+font-family: 'Roboto', sans-serif;
+font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Comic Neue', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Girassol', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Dancing Script', cursive;
