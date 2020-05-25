@@ -177,7 +177,7 @@ body, html {
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color:#ebb700 ;
+  color:#00FFFF ;
   overflow: hidden;
   position: relative;
 
@@ -189,14 +189,14 @@ body, html {
 }
 .btn:hover i{
 transform: scale(1.3);
-color: #f1f1f1;
+color: #00FFFF;
 }
 .btn::before{
   content: "";
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #ebb700;
+  background: #00FFFF;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -236,12 +236,12 @@ color: #f1f1f1;
 }
 .footer .footer-content
 {
-  border: 1px solid #ebb700;
+  border: 1px solid #00FFFF;
   height: 350px;
 }
 .footer .footer-bottom{
   background:#0d2240;
-  color:#ebb700 ;
+  color:#00FFFF ;
   height: 50px;
   width: 100%;
   text-align: center;
