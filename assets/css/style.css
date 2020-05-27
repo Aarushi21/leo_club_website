@@ -189,7 +189,7 @@ body, html {
 }
 .btn:hover i{
 transform: scale(1.3);
-color: #00FFFF;
+color: white;
 }
 .btn::before{
   content: "";
