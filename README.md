@@ -1,1 +1,2 @@
-# leo_club_website
+# LeoClub-Website
+Official website for the Leo Club VIT.
