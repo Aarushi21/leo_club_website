@@ -39,6 +39,7 @@ body, html {
   height: 100%;
   max-width:100%;
   font-family:'Crimson Text', serif;
+  border-left: black;
 }
 
 .card{
@@ -97,7 +98,7 @@ body, html {
   
   /* Full height */
   height: 100%; 
-  
+  width: 100%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -323,7 +324,8 @@ color: white
 }
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
-body > .back {
+body 
+  {
     margin: 5px 20px;
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZWVlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
     font-family: 'Open Sans'; 
@@ -416,7 +418,7 @@ p.footer {
     content:" ";
 }
 .timeline > li > .timeline-badge {
-    color: #ffffff;
+    color: black;
     width: 24px;
     height: 24px;
     line-height: 10px;
@@ -442,7 +444,7 @@ p.footer {
     right: auto;
 }
 .timeline-badge > a {
-    color: #ffffff !important;
+    color: #FFFFFF !important;
 }
 .timeline-badge a:hover {
     color: #dcdcdc !important;
