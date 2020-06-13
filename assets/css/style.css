@@ -248,7 +248,7 @@ h6{
   margin: 10px;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color:#4679bd ;
+  color:#00FFFF ;
   overflow: hidden;
   position: relative;
 
@@ -267,7 +267,7 @@ color: white
   position: absolute;
   width: 120%;
   height: 120%;
-  background:#4679bd;
+  background:#00FFFF;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -307,12 +307,12 @@ color: white
 }
 .footer .footer-content
 {
-  border: 1px solid #4679bd;
+  border: 1px solid #00FFFF;
   height: 350px;
 }
 .footer .footer-bottom{
   background:#0d2240;
-  color:#4679bd ;
+  color:#00FFFF ;
   height: 70px;
   width: 100%;
   text-align: center;
@@ -518,7 +518,7 @@ p.footer {
     right: auto;
 }
 .timeline-badge > a {
-    color: #FFFFFF !important;
+    color: #0d2240 !important;
 }
 .timeline-badge a:hover {
     color: #dcdcdc !important;
