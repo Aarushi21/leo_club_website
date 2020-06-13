@@ -9,10 +9,13 @@
     color: #ebb700 !important;
 }
 .navbar-brand{
-    font-size: 3vw !important;
+    font-size: 30px !important;
 }
 .nav-link{
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left:10px;
+    margin-right: 10px;
 }
 
 .content{
@@ -37,9 +40,11 @@ h6{
 }
 body, html {
   height: 100%;
-  max-width:100%;
+  width:100%;
   font-family:'Crimson Text', serif;
-  border-left: black;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .card{
@@ -57,7 +62,13 @@ body, html {
 .board{
   color: #0d2240;
   margin-left: 39%;
-  margin-right: 39%;
+  margin-right: 39% !important;
+  text-shadow: 4px 4px 4px black;
+}
+.board1{
+  text-align: center;
+  color: #0d2240;
+  
   text-shadow: 4px 4px 4px black;
 }
 .avatar {
@@ -105,6 +116,16 @@ body, html {
   background-size: cover;
   background-attachment: fixed;
 }
+@media (max-width: 767px){
+  .bg-text > h3{
+    font-size: 4vh !important;
+  }
+  .bg-text > h1 {
+    margin-left: 30% !important;
+    font-size: 3vh;
+  }
+  
+}
 .css-selector{
   background: linear-gradient(
     rgba(0,0,0,0.4),
@@ -121,8 +142,9 @@ body, html {
   background-size: cover;
   color: white;
   font-weight: bold;
+  font-size: 3vh !important;
  /* border: 3px solid #f1f1f1;*/
-  position: absolute;
+  position: relative;
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -265,7 +287,7 @@ color: white
 
 .image {
   display: block;
-  width: 100%;
+  width: 90%;
   height:50vh ;
   border:#0d2240 ;
   border-style: double;
@@ -279,7 +301,7 @@ color: white
   right: 0;
   background-color: #0d2240;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   height:0;
   transition: .5s ease;
 }
@@ -303,6 +325,16 @@ color: white
   transform: translate(-50%, -50%);
   text-align: center;
 }
+@media (max-width: 767px){
+  .overlay{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .image{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
 .bg-event{
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -324,10 +356,10 @@ color: white
 }
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
-body 
+body > .back
   {
     margin: 5px 20px;
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZWVlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");
+    /*background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4KPHJlY3Qgd2lkdGg9IjYiIGhlaWdodD0iNiIgZmlsbD0iI2VlZWVlZSI+PC9yZWN0Pgo8ZyBpZD0iYyI+CjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjMiIGZpbGw9IiNlNmU2ZTYiPjwvcmVjdD4KPHJlY3QgeT0iMSIgd2lkdGg9IjMiIGhlaWdodD0iMiIgZmlsbD0iI2Q4ZDhkOCI+PC9yZWN0Pgo8L2c+Cjx1c2UgeGxpbms6aHJlZj0iI2MiIHg9IjMiIHk9IjMiPjwvdXNlPgo8L3N2Zz4=");*/
     font-family: 'Open Sans'; 
     font-weight: 300; 
 }
@@ -366,7 +398,7 @@ p.footer {
     margin-left: -1.5px;
 }
 .timeline > li {
-    margin-bottom: 200px;
+    margin-bottom: 20px;
     position: relative;
     width: 50%;
     float: left;
