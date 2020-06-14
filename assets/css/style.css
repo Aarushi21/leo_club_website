@@ -52,6 +52,7 @@ h6{
   margin-left: auto;
   margin-right: auto;
   width: auto !important;
+  height:450px;
 }
 .card-body{
   text-align: center;
@@ -69,8 +70,12 @@ h6{
 .board1{
   text-align: center;
   color: #0d2240;
-  
   text-shadow: 4px 4px 4px black;
+}
+.board1 > h1 {
+  text-align: center;
+  margin-right: 38%;
+  margin-left: 38%;
 }
 .avatar {
   vertical-align: middle;
@@ -126,10 +131,10 @@ h6{
     font-size: 3vh;
   }
   .text > h3{
-    font-size: 3vh !important;
+    font-size: 4vh !important;
   }
   .text > h1{
-    font-size: 4vh !important;
+    font-size: 5vh !important;
   }
   .navbar-brand{
     font-size: 3.5vh !important;
@@ -156,8 +161,12 @@ h6{
     text-align: center;
   }
   .board1 > h1{
-    font-size: 7vh !important;
-    margin-left: 10vw;
+    font-size: 6vh !important;
+    margin-left:15.5%;
+    margin-right: 15.5%;
+  }
+  .card{
+    height: 400px !important;
   }
 }
 @media (min-width:768px) and ( max-width:1024px){
@@ -166,6 +175,15 @@ h6{
   }
   .text > h1{
     font-size: 5vh !important;
+  }
+  .card{
+    height: 530px !important;
+  }
+  .card-body > h4{
+    font-size: 4.8vh !important;
+  }
+  .card-body > p {
+    font-size: 3.7vh !important;
   }
 }
 .css-selector{
