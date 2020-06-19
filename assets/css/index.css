@@ -82,7 +82,7 @@ body {
 }
 
 .logo {
-    width: 80px;
+    width: 60px;
 }
 
 .navbar-custom a .active {
@@ -352,7 +352,7 @@ button:focus {
 /* Section Header Image */
 .header-img {
     padding-top: 20vh;
-    margin-top: -5vh;
+    margin-top: -4vh;
     /* The image used */
     background: linear-gradient(
       rgba(0,0,0,0.5),
@@ -390,6 +390,12 @@ button:focus {
     padding: 20px;
     text-align: center;
   }
+  @media (max-width: 767px){
+    .bg-text > h1 {
+        margin-left: 30% !important;
+        font-size: 3vh;
+    }
+}
   /* Events Section */
   
   .image {
@@ -468,8 +474,11 @@ button:focus {
   }
   .timeline-item:nth-child(even) .timeline-content {
     float: right;
-    padding: 40px 30px 10px 30px;
+    padding: 60px 30px 10px 30px;
   }
+  .timeline-item:nth-child(odd) .timeline-content {
+    padding: 60px 30px 10px 30px;
+}
   .timeline-item:nth-child(even) .timeline-content .date {
     right: auto;
     left: 0;
@@ -602,6 +611,9 @@ button:focus {
       left: -15px;
       border-width: 10px 15px 10px 0;
       border-color: transparent #f5f5f5 transparent transparent;
+    }
+    .timeline-content > h2{
+        letter-spacing: 5px;
     }
   }
 /*----Board----*/
