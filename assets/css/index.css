@@ -544,7 +544,7 @@ button:focus {
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.8);
   }
   .timeline > a:hover, a:active, a:focus {
-    background: #0177B7;
+    background: white;
     color: #FFFFFF;
     text-decoration: none;
   }
@@ -914,6 +914,7 @@ body > .board
 #quote-carousel {
     padding: 0 10px 30px 10px;
     margin-top: 60px;
+    
 }
 
 #quote-carousel .carousel-indicators {
@@ -922,6 +923,7 @@ body > .board
     top: auto;
     bottom: 0px;
     margin-top: 20px;
+    border-radius: 50%;
 }
 
 #quote-carousel .carousel-indicators {
@@ -931,6 +933,7 @@ body > .board
     opacity: 0.5;
     overflow: hidden;
     vertical-align: middle;
+    border-radius: 50%;
 }
 
 #car-active {
@@ -953,7 +956,7 @@ body > .board
 }
 
 #testimonials {
-    background-image: url("../img/test-bg.png");
+    background-image: url(../img/coordinator/test-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
