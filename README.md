@@ -10,7 +10,7 @@ Official website for the Leo Club VIT.
 [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](https://github.com/CodeChefVIT/LeoClub-Website/blob/master/index.html)
 
 ## Features
-- Website is made by using HTML , CSS , Jquery , Javascript and Bootstrap.
+- Website is made by using HTML , CSS , Jquery ,Javascript and Bootstrap.
 - Contains information about LeoClub VIT , their previous events and their current board and committe members.
 
 ## Screenshots
