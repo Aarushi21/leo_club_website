@@ -12,11 +12,7 @@ Official website for the Leo Club VIT.
 ## Features
 
 - Website is made by using HTML , CSS , Jquery , Javascript and Bootstrap.
-=======
-- Website is made by using HTML , CSS , Jquery and Bootstrap.
-=======
-- Website is made by using HTML , CSS , Jquery ,Javascript and Bootstrap.
-=======
+
 - Contains information about LeoClub VIT , their previous events and their current board and committe members.
 
 ## Screenshots
@@ -27,9 +23,8 @@ Official website for the Leo Club VIT.
 - CSS
 - Bootstrap
 - Jquery
-
 - Javascript
-=======
+
 
 ## Contributors
 - <a href="https://github.com/<Aarushi21>">Aarushi Shrestha</a>
